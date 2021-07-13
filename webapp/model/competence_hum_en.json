@@ -1,0 +1,93 @@
+{
+
+	
+	
+	"Flexibilite": {
+		"TITRE": "Flexibility",
+		"titre1": "A flexible consultant ?",
+		"partie1": [
+			"<p style='text-align: justify'>As an IT Consultant, we need to be in an operational condition in order to answer to customer requirements. Flexibility involves good organisation and mental gymastics.</p>",
+			"<p style='text-align: justify'>This is a key asset because you gain precious time during project progress. And finally, a consultant who is easily adaptable is an efficient Consultant who can be easily put on project.</p>"
+		],
+		"titre2": "Daily flexibility",
+		"partie2": [
+			"<p style='text-align: justify'>In my position as SAP Technical Consultant at Augusta Reeves, I often work on various projects and that require to quickly fit into project context and objectives.</p>",
+			"<p style='text-align: justify'>I begin each mission by an information gathering which consist of outlining the project context, transactions and program to create or use. This information analysis important since that contributes to synthetizing and keeping essential information. </br>",
+			"Moreover, in order to manage my project better, I note my development time in an excel file, this file participate in the reporting of my monitoring activity. </p>",
+			"<p style='text-align: justify'>This skill I develop throughout my TPAM’s (Third Party Application Maintenance) mission on SAP ERP and on customer’s different environments of the company.</p>",
+			"<p style='text-align: justify'>For example in a typical TPAM’s day I carried out the following for two different customers : ",
+			"<ul><li>At the beginning of the day : I looked for a bug which lead to the failure of some inbound IDOC (technologies enabling data exchange between two different systems) to finally discover the error was due to a segment field of the IDOC which was alimented with bad data. </br>",
+			"During the process of this ticket, I discovered and used all transactions associated with IDOCs processing.</li> </ul>",
+			"<ul><li>The afternoon of the same day : I worked for another customer on a change for a bill of materials program that needed debugging because the change was not saved in the system.</li> </ul>",
+			"<p style='text-align: justify'>These missions helped me to develop my analytical skills because they needed good observations and research. </p>",
+			"<p style='text-align: justify'>I have positive feedback from my manager and other project managers about my flexibility in my tasks and they don’t hesitate to put me on short term projects because of this. </br>",
+			"Thanks to theses assignments which are operated on distinct SAP’s modules and different technologies, I think I am able to adapt easily to any project.</p>"
+		]
+	},
+
+	"Presenter": {
+		"TITRE": "Show",
+		"titre1": "Art of project presentation",
+		"partie1": [
+			"<p style='text-align: justify'>Introducing a project in a professional context is the capacity to spread information to auditors. It also a method to showcase the work of a project participant.</p>"
+		],
+		"titre2": "My experience in project presentation",
+		"partie2": [
+			"<p style='text-align: justify'>During my years in Web Development area, in my position of IT Developer at Zenity, I facilitated many project progress presentations for the customers. </br>",
+			"These presentations were held on average every 2 weeks since we worked in an Agile project context.</p>",
+			"<p style='text-align: justify'>The planning of my presentations : ",
+			"<ul><li>First of all, I began with feedback on the important points of the last presentation in order to give a brief overview for the project’s stakeholders.</li></ul>",
+			"<ul><li>Then, I was introduced modifications and corrections were set up during the last sprint and new developing features.</li></ul>",
+			"<ul><li>Finally, I concluded with a preview on future features to develop and what still needed to be done.</li> </ul>",
+			"<p style='text-align: justify'>These presentations included a demo of applications allowing customers to visualize the final product and to share the requests for changes by the project participants.</p>",
+			"<p style='text-align: justify'>Moreover, the project presentations were important as they gave the development team more visibility and therefore more recognition for their work. This was very encouraging and gave us confidence for the continuation of the project.</p>"
+		],
+		"titre3": "Feedback",
+		"partie3": [
+			"<p style='text-align: justify'>In the beginning it was not an easy exercise, since in a school environment presentations were given without audience interruptions. </br>",
+			"However in these project presentations, I had to introduce and at the same time answer to questions, defend our ideas and make sure that the presentations ran smoothly.</p>",
+			"<p style='text-align: justify'>These oral presentations allowed me to highlight my communication skills and oral presentation skills since I had to speak in public and hold these presentations. </br>",
+			"Consequently, today I feel more comfortable speaking in public in professional contexts in front of customers and with my colleagues.</p>"
+		],
+		"titre4": "An improvable skill",
+		"partie4": [
+			"<p style='text-align: justify'>With the benefit of hindsight, I think that an improvable skill would be the establishment of the agenda and emailing it before each presentation. This would remove the overview part and gain time.</p>"
+		]
+	},
+
+	"Transmettre": {
+		"TITRE": "Transfer",
+		"titre1": "Transfer of knowledge",
+		"partie1": [
+			"<p style='text-align: justify'>To be able to to transfer knowledge is a skill, an important quality. Transfer his own knowledge contribute to build solid work teams who can communicate, understand and grow together. </br>",
+			"That can also have as finality to self criticism and highlight some difficulties in order to improve some skills.</p>"
+		],
+		"titre2": "My knowledge to the benefit of my teamates",
+		"partie2": [
+			"<p style='text-align: justify'>I had occasion to transfer my knowledge on SAP’s ERP when I supervised a trainee during his SAP formation and his learning of ABAP development.</p>",
+			"<p style='text-align: justify'>I had to mentoring him during his training while giving it some explanations on basics concepts, for example the operation of ERP with navigation, use of transaction, modules, process and more. This skill appear basic for all ERP consultant but that can be misunderstood for a beginner.</p>",
+			"<p style='text-align: justify'>Parallel to more advanced concepts based on technical area with basics transaction of developer, standards/specifics tables, ABAP instructions, BAPI, debug basics and best practices of SAP development.</p>",
+			"<p style='text-align: justify'>Thanks to this good experience, they often offer me to supervise beginner since the feedback about me and my contribution are positive and it’s an assignment that I enjoy to do.</p>"
+		],
+		"titre3": "An experience feedback",
+		"partie3": [
+			"<p style='text-align: justify'>These experiences empowered me to expose my achievements and at the same time to self criticism concerning the clarity of my explanation. </br>",
+			"For improve this skill I envisage to realize my own SAP training document thanks to many notes I had to do and I’m still doing until today.</p>"
+		]
+	},
+
+	"Autonomie": {
+		"TITRE": "Autonomy",
+		"titre1": "An autonomous consultant",
+		"partie1": ["<p style='text-align: justify'>An IT consultant must be autonomous at work to succeed in their job. </br>",
+			"To execute assignments correctly you must be able to progress with being actively supervised, that is to say to have the ability to find the answers on you own or with the help of team-mates.</p>"
+		],
+		"titre2": "My autonomy at work",
+		"partie2": [
+			"<p style='text-align: justify'>Whilst carrying out my project work I made a big effort to be autonomous because I discovered the subject through FSD (Functional Specifications Document). This gave me the essential information to enable me to move forward.</p>",
+			"<p style='text-align: justify'>For example, often when I operated as technical consultant in the beginning I was mentored by a functional consultant whose assignment was to give me the functional process and to be the representative between me and the customer. Then, throughout the project progress, I was able to directly communicate with the customer, understand his business process and handle requests of evolution or bug.</p>",
+			"<p style='text-align: justify'>By learning the basics thanks to internet and other resources helps me learn about technical or functional subjects to be more autonomous.</p>"
+		]
+	}
+
+}

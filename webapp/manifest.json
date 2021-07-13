@@ -1,0 +1,200 @@
+{
+	"_version": "1.5.0",
+	"sap.app": {
+		"id": "adrien_ratsimihah_portfolio",
+		"type": "application",
+		"i18n": "i18n/i18n.properties",
+		"applicationVersion": {
+			"version": "1.0.0"
+		},
+		"title": "{{appTitle}}",
+		"description": "{{appDescription}}",
+		"sourceTemplate": {
+			"id": "ui5template.basicSAPUI5ApplicationProject",
+			"version": "1.40.12"
+		}
+	},
+	"sap.ui": {
+		"technology": "UI5",
+		"icons": {
+			"icon": "",
+			"favIcon": "",
+			"phone": "",
+			"phone@2": "",
+			"tablet": "",
+			"tablet@2": ""
+		},
+		"deviceTypes": {
+			"desktop": true,
+			"tablet": true,
+			"phone": true
+		},
+		"supportedThemes": ["sap_hcb", "sap_belize"]
+	},
+	"sap.ui5": {
+		"rootView": {
+			"viewName": "adrien_ratsimihah_portfolio.view.App",
+			"type": "XML",
+			"id": "app"
+		},
+		"dependencies": {
+			"minUI5Version": "1.30.0",
+			"libs": {
+				"sap.ui.core": {},
+				"sap.m": {},
+				"sap.ui.layout": {},
+				"sap.ushell": {},
+				"sap.collaboration": {},
+				"sap.ui.comp": {},
+				"sap.uxap": {}
+			}
+		},
+		"contentDensities": {
+			"compact": true,
+			"cozy": true
+		},
+		"models": {
+			"i18n": {
+				"type": "sap.ui.model.resource.ResourceModel",
+				"settings": {
+					"bundleName": "adrien_ratsimihah_portfolio.i18n.i18n"
+				}
+			},
+			"general": {
+				"type": "sap.ui.model.json.JSONModel",
+				"uri": "model/general.json"
+			},
+			"competence_tech": {
+				"type": "sap.ui.model.json.JSONModel",
+				"uri": "model/competence_tech.json"
+			},
+			"competence_hum": {
+				"type": "sap.ui.model.json.JSONModel",
+				"uri": "model/competence_hum.json"
+			},
+			"experience": {
+				"type": "sap.ui.model.json.JSONModel",
+				"uri": "model/experience.json"
+			},
+			"formation": {
+				"type": "sap.ui.model.json.JSONModel",
+				"uri": "model/formation.json"
+			},
+			"realisation": {
+				"type": "sap.ui.model.json.JSONModel",
+				"uri": "model/realisation.json"
+			},
+			"sap": {
+				"type": "sap.ui.model.json.JSONModel",
+				"uri": "model/sap.json"
+			},
+			"temoignage": {
+				"type": "sap.ui.model.json.JSONModel",
+				"uri": "model/temoignage.json"
+			}
+		},
+		"resources": {
+			"css": [{
+				"uri": "css/style.css"
+			}]
+		},
+		"routing": {
+			"targets": {
+				"home": {
+					"viewName": "Accueil",
+					"viewId": "accueil",
+					"viewLevel": 1
+				},
+				"rpa": {
+					"viewName": "Rpa"
+				},
+				"sap": {
+					"viewName": "Sap"
+				},
+				"technosap": {
+					"viewName": "TechnoSap"
+				},
+				"htmlcssjavascript": {
+					"viewName": "HtmlCssJavascript"
+				},
+				"javaphp": {
+					"viewName": "JavaPhp"
+				},
+				"sql": {
+					"viewName": "Sql"
+				},
+				"flexibilite": {
+					"viewName": "Flexibilite"
+				},
+				"presenter": {
+					"viewName": "Presenter"
+				},
+				"transmettre": {
+					"viewName": "Transmettre"
+				},
+				"autonomie": {
+					"viewName": "Autonomie",
+					"viewId": "autonomie",
+					"viewLevel": 2
+				}
+			},
+			"routes": [{
+				"name": "home",
+				"pattern": "",
+				"target": "home"
+			}, {
+				"name": "rpa",
+				"pattern": "rpa",
+				"target": "rpa"
+			}, {
+				"name": "sap",
+				"pattern": "sap",
+				"target": "sap"
+			}, {
+				"name": "technosap",
+				"pattern": "technosap",
+				"target": "technosap"
+			}, {
+				"name": "htmlcssjavascript",
+				"pattern": "htmlcssjavascript",
+				"target": "htmlcssjavascript"
+			}, {
+				"name": "javaphp",
+				"pattern": "javaphp",
+				"target": "javaphp"
+			}, {
+				"name": "sql",
+				"pattern": "sql",
+				"target": "sql"
+			}, {
+				"name": "flexibilite",
+				"pattern": "flexibilite",
+				"target": "flexibilite"
+			}, {
+				"name": "presenter",
+				"pattern": "presenter",
+				"target": "presenter"
+			}, {
+				"name": "transmettre",
+				"pattern": "transmettre",
+				"target": "transmettre"
+			}, {
+				"name": "autonomie",
+				"pattern": "autonomie",
+				"target": "autonomie"
+			}],
+			"config": {
+				"viewPath": "adrien_ratsimihah_portfolio.view",
+				"routerClass": "sap.m.routing.Router",
+				"viewType": "XML",
+				"controlId": "app",
+				"transition": "slide",
+				"controlAggregation": "pages"
+			}
+		}
+	},
+	"sap.platform.hcp": {
+		"uri": "",
+		"_version": "1.1.0"
+	}
+}

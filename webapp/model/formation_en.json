@@ -1,0 +1,31 @@
+{
+
+	"Formations": [{
+		"logo": "Images/intechinfoesieagroupe.png",
+		"adresse": "74 BIS AVENUE MAURICE THOREZ, 94200 IVRY-SUR-SEINE",
+		"diplôme": "<strong> RNCP Level 1 Degree (Master Degree equivalence), IN'TECH Computer Engineering School </strong>",
+		"date": "2019-2021",
+		"cours": "<ul> <li>Advanced Javascript</li> <li>Advanced Applications Development</li> <li>Communication</li>",
+		"cours2": "Advanced Applications Development",
+		"cours3": "Communication"
+	}, {
+		"logo": "Images/iut_descartes.png",
+		"adresse": "143 AVENUE DE VERSAILLES, 75016 PARIS",
+		"diplôme": "<strong>Professional Bachelor of Science in Software Engineering and Information System, Paris Descartes Univerisity Institute of Technology</strong>",
+		"date": "2018-2019",
+		"cours": "<ul> <li>Web Programming</li> <li>Advanced Database</li> <li>Business Intelligence & Information Systems</li> <li>SAGE</li>",
+		"cours2": "Advanced Database",
+		"cours3": "Business Intelligence & Information Systems",
+		"cours4": "SAGE"
+	}, {
+		"logo": "Images/geccel.jpg",
+		"adresse": "36 Avenue Frédéric Joliot-Curie, 95140 Garges-lès-Gonesse",
+		"diplôme": "<strong>BTS Service Informatique aux Organisations, Geccel Informatique</strong>",
+		"date": "2017-2018",
+		"cours": "<ul> <li>Installation of server</li> <li>Windows/Linux configurations</li> <li>Python programming</li> <li>Installation of network systems/Maintenance (Routers, Switches)</li>",
+		"cours2": "Python programming",
+		"cours3": "Linux",
+		"cours4": "TFTP"
+	}]
+
+}

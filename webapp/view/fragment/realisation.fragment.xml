@@ -1,0 +1,72 @@
+<core:FragmentDefinition xmlns="sap.m" xmlns:core="sap.ui.core" xmlns:l="sap.ui.layout">
+	<Dialog id="realisation_dialog" title="" contentWidth="80%" contentHeight="80%">
+		<l:Grid class="sapUiLargeMarginTop" defaultSpan="L10 M10 S10" defaultIndent="XL2 L2 M2 S2">
+			<l:content>
+				<Image id="realisation_image" src="" width="80%" alt="realisation"/>
+			</l:content>
+		</l:Grid>
+		<l:Grid defaultSpan="L12 M12 S12">
+			<VBox id="vbox_presentation" class="sapUiMediumMargin">
+				<FormattedText id="realisation_presentation" htmlText=""/>
+			</VBox>
+		</l:Grid>
+		<l:Grid defaultSpan="L12 M12 S12">
+			<VBox class="sapUiMediumMarginBegin sapUiMediumMarginBottom">
+				<Text text="" id="developed_skills" class="sapUiSmallMarginBottom"/>
+				<l:Grid defaultSpan="L12 M12 S12">
+					<VBox direction="Row" displayInline="true">
+						<core:Icon src="sap-icon://laptop" class="size2 sapUiSmallMarginEnd" color="#031E48">
+							<core:layoutData>
+								<FlexItemData growFactor="15"/>
+							</core:layoutData>
+						</core:Icon>
+						<FormattedText id="realisation_competencetech" htmlText=""/>
+						<layoutData>
+							<l:GridData span="L6 S12"/>
+						</layoutData>
+					</VBox>
+					<VBox direction="Row" displayInline="true" class="">
+						<core:Icon src="sap-icon://person-placeholder" class="size2 sapUiSmallMarginEnd" color="#031E48">
+							<core:layoutData>
+								<FlexItemData growFactor="15"/>
+							</core:layoutData>
+						</core:Icon>
+						<FormattedText id="realisation_competencehum" htmlText=""/>
+						<layoutData>
+							<l:GridData span="L6 S12"/>
+						</layoutData>
+					</VBox>
+				</l:Grid>
+				<!--</HBox>-->
+				
+				<!--<HBox>-->
+					<!--<VBox direction="Row" displayInline="true">-->
+					<!--	<core:Icon src="sap-icon://laptop" class="size2 sapUiSmallMarginEnd" color="#031E48">-->
+					<!--		<core:layoutData>-->
+					<!--			<FlexItemData growFactor="15"/>-->
+					<!--		</core:layoutData>-->
+					<!--	</core:Icon>-->
+					<!--	<FormattedText id="realisation_competencetech" htmlText=""/>-->
+					<!--	<layoutData>-->
+					<!--		<l:GridData span="L6"/>-->
+					<!--	</layoutData>-->
+					<!--</VBox>-->
+					<!--<VBox direction="Row" displayInline="true" class="sapUiMediumMarginBegin">-->
+					<!--	<core:Icon src="sap-icon://person-placeholder" class="size2 sapUiSmallMarginEnd" color="#031E48">-->
+					<!--		<core:layoutData>-->
+					<!--			<FlexItemData growFactor="15"/>-->
+					<!--		</core:layoutData>-->
+					<!--	</core:Icon>-->
+					<!--	<FormattedText id="realisation_competencehum" htmlText=""/>-->
+					<!--	<layoutData>-->
+					<!--		<l:GridData span="L6"/>-->
+					<!--	</layoutData>-->
+					<!--</VBox>-->
+				<!--</HBox>-->
+			</VBox>
+		</l:Grid>
+		<beginButton>
+			<Button text="" id="close_button" press="onCloseRealisation"/>
+		</beginButton>
+	</Dialog>
+</core:FragmentDefinition>

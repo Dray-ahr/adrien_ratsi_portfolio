@@ -1,0 +1,104 @@
+{
+
+	"Sap_modules": [{
+		"module": "SD",
+		"detail": "Sales and Distribution concerne l’ensemble des activités relatives à la vente, la livraison et la facturation client.",
+		"pourcentage": "80"
+	}, {
+		"module": "MM",
+		"detail": "Material Management est l'ensemble de flux en relation avec les stocks et les approvisionnements. Il permet notamment de gérer les achats, les mouvements de stocks, la réception des marchandises et de faire un suivi des articles.",
+		"pourcentage": "70"
+	}, {
+		"module": "PP",
+		"detail": "Production Planning permet de planifier et de contrôler les activités de la production ainsi que la vérification de conformité des articles.",
+		"pourcentage": "60"
+	}, {
+		"module": "WM",
+		"detail": "Warehouse Management permet de gérer les mouvements physiques des produits et des composants. Ainsi il répertorie les activités de réception des marchandises, rangement, préparation de commandes et expédition.",
+		"pourcentage": "40"
+	}, {
+		"module": "FI/CO",
+		"detail": "Financial/Controlling s'occupe de gérer et de représenter toutes les données de la comptabilité, comptabilité analytique et de la comptabilité budgétaire.",
+		"pourcentage": "30"
+	}, {
+		"module": "HR",
+		"detail": "Human Resources concerne la gestion des données de base du personnel, ce qui permet à l'entreprise d'effectuer un suivi du temps de travail, des carrières, de suivre et organiser le recrutement du personnel, l'embauche et la planification du personnel.",
+		"pourcentage": "20"
+	}],
+
+	"Sap_technos": [{
+		"techno": "ABAP"
+	}, {
+		"techno": "BAPI"
+	}, {
+		"techno": "ALV"
+	}, {
+		"techno": "Smart Forms"
+	}, {
+		"techno": "SAP Scripts"
+	}, {
+		"techno": "User Exits"
+	}, {
+		"techno": "BADI"
+	}, {
+		"techno": "IDOC"
+	}],
+
+	"Sap_titre": "SAP",
+	"sap_modules_title": "SAP Modules",
+	"sap_technos_use": "Technologies used",
+
+	"Sap_detail": {
+		"module_detail": [
+			"<p style='text-align: justify'>As Technical SAP Consultant before any development step, I have to clearly understand the business process. SAP is an ERP which enable to handle many processes like sales and purchasing. </p>",
+			"<p style='text-align: justify'>I think a good SAP Consultant is not just a good developer, he has also a good understanding of customer’s needs and can easily implement all the processes. ",
+			"Thanks to the projects I have worked on, I have functional knowledges by the learning of t-code and customizing points.</p>"
+		],
+		"techno_detail": [
+			"<p style='text-align: justify'>During day by day work, I have realized ABAP development that is the programming language used in SAP developing business application. </p> ",
+			"<p style='text-align: justify'>I’m able to develop specifics programs in SAP, reports with ALV (Abap List Viewer) or to exchange data between different systems thanks to IDocs. I can also create SmartFoms or add functionalities to standard SAP through User exits, Customer Exit and BADI (Business Add-In) implementation.</p>"
+		]
+	},
+
+	"Sap_new_technos_titre": "SAP New Technologies",
+
+	"Sap_new_technos": [{
+		"langage": "SAPUI5/Fiori",
+		"detail": "",
+		"pourcentage": "90"
+	}, {
+		"langage": "SAP Analytics Cloud",
+		"detail": "",
+		"pourcentage": "80"
+	}, {
+		"langage": "S/4HANA",
+		"detail": "",
+		"pourcentage": "60"
+	}],
+
+	"Sap_new_technos_detail": [
+		"<p style='text-align: justify'>SAP new technologies are applicable for project connected to Cloud, mobile applications.</p>",
+		"<p style='text-align: justify'>The numerous applications I have worked on helped me to be familiar with some tools and refine my knowledge on subjects like OData and HANA platform. For example, during the realization of Fiori projects, I had to be vigilant on Design Thinking and User Experience. There are central concepts in this kind of applications.</p>",
+		"<p style='text-align: justify'>Moreover, as you can see my portfolio is entirely build with SAPUI5. I started to train as a hobby, I mastered it and I decided to do my own project with this technology.</p>",
+		"<p style='text-align: justify'>I am planning to realize some personal projects based on Cloud technologies and using SAP new tools. There is the link to access to my Fiori launchpad in which you can find my applications : <a href='https://flpportal-p1942633315trial.dispatcher.hanatrial.ondemand.com/sites?siteId=85db8894-fded-42fd-9b94-31ff941109be'> Fiori Launchpad </a> . </p>"
+	],
+
+	"New_sap_technos": [{
+		"techno": "SAP Cloud Platform"
+	}, {
+		"techno": "HANA"
+	}, {
+		"techno": "Netweaver Gateway"
+	}, {
+		"techno": "Cloud Connector"
+	}, {
+		"techno": "Core Data Services"
+	}, {
+		"techno": "OData"
+	}, {
+		"techno": "ADT"
+	}, {
+		"techno": "Eclipse"
+	}]
+
+}

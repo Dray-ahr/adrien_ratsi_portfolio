@@ -1,0 +1,61 @@
+<mvc:View xmlns:core="sap.ui.core" xmlns:mvc="sap.ui.core.mvc" xmlns="sap.m" xmlns:l="sap.ui.layout" xmlns:r="sap.suite.ui.microchart"
+	controllerName="adrien_ratsimihah_portfolio.controller.Sap" id="{general>/id_sap}">
+	<Page title="{general>/sap_title}" id="pageTitle"  titleLevel="H2" showNavButton="true" navButtonPress="onNavBack">
+		<content>
+			<FlexBox justifyContent="Center">
+				<Title class="sapUiMediumMarginTop sapUiSmallMarginBottom" id="moduleTitle" text="{general>/sap_modules_title}" width="100%"/>
+			</FlexBox>
+			<l:Grid position="Center" defaultSpan="L4 M4 S12" width="97%" defaultIndent="XL0 L0 M0 S0" content="{sap>/Sap_modules}">
+				<l:VerticalLayout width="100%">
+					<FlexBox justifyContent="Center">
+						<r:RadialMicroChart size="L" percentage="{parts:[{path:'sap>pourcentage'}],formatter: '.formatter.ToPercentage'}" class="sapUiSmallMarginBottom" alignContent="Center" />
+					</FlexBox>
+					<Title text="{sap>module}" textAlign="Center" width="100%" class="sapUiSmallMarginBottom"/>
+				</l:VerticalLayout>
+			</l:Grid>
+			<l:Grid class="sapUiMediumMarginTop" position="Center" defaultSpan="XL10 L10 M10 S10" defaultIndent="XL1 L1 M1 S1">
+				<FormattedText class="texte_humaine_competence" id="module_detail" htmlText=""/>
+			</l:Grid>
+			<FlexBox justifyContent="Center">
+				<Title class="sapUiMediumMargin" text="{general>/sap_technos_use}" id="technoLabel" width="100%"/>
+			</FlexBox>
+			<l:Grid defaultSpan="L2 M3 S6" defaultIndent="L1 M0 S4" content="{sap>/Sap_technos}">
+				<Button text="{sap>techno}" width="100px" class="button_techno"/>
+			</l:Grid>
+			<l:Grid class="sapUiMediumMarginTop" position="Center" defaultSpan="XL10 L10 M10 S10" defaultIndent="XL1 L1 M1 S1">
+				<FormattedText class="texte_humaine_competence" id="techno_detail" htmlText=""/>
+			</l:Grid>
+			<FlexBox justifyContent="Center">
+				<Title class="sapUiMediumMargin" text="{general>/realisation_title}" id="realisationLabel" width="100%"/>
+			</FlexBox>
+			<l:Grid content="{realisation2>/Realisations}">
+				<l:VerticalLayout class="">
+					<GenericTile class="sapUiTinyMarginBegin sapUiTinyMarginTop tileLayout" frameType="TwoByOne" press="onRealisationClick"
+						backgroundImage="{imageModel>/path}/{realisation2>image}" failedText="{realisation2>index}">
+						<tileContent>
+							<TileContent>
+								<content>
+									<NewsContent contentText="{realisation2>nom}" subheader="{realisation2>modules}"></NewsContent>
+								</content>
+							</TileContent>
+						</tileContent>
+					</GenericTile>
+				</l:VerticalLayout>
+			</l:Grid>
+			<!--<l:Grid id="grid_realisation" content="{realisation>/Realisations}">-->
+			<!--	<l:VerticalLayout visible="{parts:[{path:'general>/id_sap'},{path:'realisation>techno'}],formatter: '.formatter.hideRealisation'}">-->
+			<!--		<GenericTile class="sapUiTinyMarginBegin sapUiTinyMarginTop tileLayout" frameType="TwoByOne" press="onRealisationClick"-->
+			<!--			backgroundImage="{imageModel>/path}/{realisation>image}" failedText="{realisation>index}">-->
+			<!--			<tileContent>-->
+			<!--				<TileContent>-->
+			<!--					<content>-->
+			<!--						<NewsContent contentText="{realisation>nom}" subheader="{realisation>modules}"></NewsContent>-->
+			<!--					</content>-->
+			<!--				</TileContent>-->
+			<!--			</tileContent>-->
+			<!--		</GenericTile>-->
+			<!--	</l:VerticalLayout>-->
+			<!--</l:Grid>-->
+		</content>
+	</Page>
+</mvc:View>

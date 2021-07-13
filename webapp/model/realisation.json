@@ -1,0 +1,69 @@
+{
+	"morereal": "Quelques réalisations",
+
+	"Realisations": [{
+		"techno": ["SAP", "Autonomie"],
+		"id_projet": "report_sac",
+		"index": 0,
+		"nom": "Déblocage Facture ARIBA",
+		"image": "Images/bk.jpg",
+		"modules": "Module SAP : FI-CO",
+		"competence_tech": "<strong> SAP ABAP </strong>",
+		"competence_hum": "<strong> Relation client - Autonomie - Adaptation </strong>",
+		"presentation": [
+			"<div style='text-align:justify'>",
+			"<p>Ce projet fut parmis les premiers que j'ai pu traiter durant mon stage. J'ai travaillé avec une Consultante fonctionnelle de mon entreprise et c'était un sujet pour le compte de Burger King.",
+			"<p>Le problème était le suivant : . </br>",
+			"<p>Burger King a un programme sur SAP qui traite ses factures. Lorsqu'il manque une information, ces factures se retrouvent bloquées. Ce qui est un processus tout à fait normal car il est déjà possible de débloquer une facture manuellement à partir de la transaction MRBR. Or, la demande de BK était de débloquer les factures de manière automatique, peu importe les conditions.</p> ",
+			"<p>D'un point de vue technique, il fallait maitriser un minimum les BAPI car c'est avec une BAPI qu'on a pu débloquer les factures. Il fallait ensuite implémenter le déblocage automatique ainsi qu'un JOB pour que le programme puisse tourner en arrière-plan. Plus haut on peut voir l'écran de séléction et les données en sortie après exécution du programme.</br>",
+			"<p>J'ai donc beaucoup appris à l'aide de ce ticket autant dans l'aspect métier que technique.</br>",
+			"</div'>"
+		],
+		"close_button": "Fermer",
+		"developed_skills": "Compétences développées"
+    },
+ {
+		"techno": ["SAP", "Autonomie", "Présenter", "Data", "Programmation générale", "HTML CSS JS"],
+		"id_projet": "portfolio",
+		"index": 1,
+		"nom": "Mon Portfolio",
+		"image": "Images/portfolio.png",
+		"modules": "",
+		"competence_tech": "<strong> SAPUI5 - HTML - CSS </strong>",
+		"competence_hum": "<strong> Autonomie - Présenter </strong>",
+		"presentation": [
+			"<div style='text-align:justify'>",
+			"<p> Mon portfolio est un travail personnel que j'ai entièrement réalisé de manière autonome. Il permet de me présenter et de mettre en avant mes compétences, mon parcours, mes expériences professionnelles et certaines de mes réalisations jusqu'à ce jour.</p> </br>",
+			"Pour développer cette application, j'ai passé de nombreuses heures à me documenter, suivre des tutoriels vidéos afin de maîtriser les différents concepts du développement avec la technologie <strong> SAPUI5</strong>. </br>",
+			"<p> J'ai choisi cette technologie car elle est récente dans la sphère SAP et les consultants doivent se tenir à jour des nouvelles technologies. De plus, dans le cadre de la Veille Technologique, SAP FIORI se voit évolué avec l'arrivée de SAP BTP.",
+			"Je me suis lancé dans la réalisation de ce projet personnel grâce au WebIDE présent sur SAP Cloud Platform. Ensuite, tout a été changé avec l'arrivée de SAP Cloud Foundry qui a remplacé SAP CP. Il a fallu se réadapter et travailler avec de nouveaux supports. </p>",
+			"<p> Ce projet m'a permis de mettre en pratique mes connaissances acquises sur SAPUI5, la veille technologique, et mettre un pied dans FIORI.</p>",
+			"</div'>"
+		],
+		"close_button": "Fermer",
+		"developed_skills": "Compétences développées"
+    },
+{
+		"techno": ["SAP", "Flexibilité","Présenter", "Transmettre", "Autonomie" ],
+		"id_projet": "avis",
+		"index": 2,
+		"nom": "Interface d'infos de paiement SOL",
+		"image": "Images/elis.png",
+		"modules": "Modules SAP : FI/CO",
+		"competence_tech": "<strong> ABAP - SAP Module fonction </strong>",
+		"competence_hum": "<strong> Flexibilité, Présenter, Transmettre, Autonomie, Relation-client, Fonctionnel </strong>",
+		"presentation": [
+			"<div style='text-align:justify'>",
+			"<p>Dans le cadre d'un projet du client ELIS, j'ai eu la charge d'implémenter un programme et un module fonction destinés à l'envoi de leurs informations de paiements vers ESB. </br>",
+			"Il a fallu alors réaliser les règles de gestion en amont avec un consultant fonctionnel et le client. </p>",
+			"<p>Le flux consistait à récupérer les informations de paiement en fonction de leurs N° de pièce et de leurs références factures, pour à la fin, avoir un raport tout fait, prêt à l'envoi pour ESB. ",
+			"Il y avait donc tout une logique à mettre en place avec un algorithme bien pensé.  </p>",
+			"<p>Pour travailler sur ce projet, j'ai dû être en capacité d'échanger directement avec le client : Pour ses besoins; pour lui présenter la solution. Un <strong>JOB</strong> à mettre en place a été demandé également. Le Job permet d'exécuter le programme en arrière-plan (pendant la nuit par exemple).</p>",
+			"<p>Ce projet m'a permis de travailler sur des compétences fonctionnelles SAP : <strong> FI/CO</strong> et techniques. Je remercie également le fonctionnel avec qui j'ai travaillé sur le projet pendant ces longs mois. </p>",
+			"</div>"
+		],
+		"close_button": "Fermer",
+		"developed_skills": "Compétences développées"
+	}]
+
+}

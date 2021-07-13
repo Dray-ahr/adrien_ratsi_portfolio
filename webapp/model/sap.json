@@ -1,0 +1,98 @@
+{
+
+	"Sap_modules": [{
+		"module": "SD",
+		"detail": "Sales and Distribution concerne l’ensemble des activités relatives à la vente, la livraison et la facturation client.",
+		"pourcentage": "80"
+	}, {
+		"module": "FI/CO",
+		"detail": "Financial/Controlling s'occupe de gérer et de représenter toutes les données de la comptabilité, comptabilité analytique et de la comptabilité budgétaire.",
+		"pourcentage": "55"
+	}, {
+		"module": "MM",
+		"detail": "Material Management est l'ensemble de flux en relation avec les stocks et les approvisionnements. Il permet notamment de gérer les achats, les mouvements de stocks, la réception des marchandises et de faire un suivi des articles.",
+		"pourcentage": "70"
+	}, {
+		"module": "PP",
+		"detail": "Production Planning permet de planifier et de contrôler les activités de la production ainsi que la vérification de conformité des articles.",
+		"pourcentage": "60"
+	}, {
+		"module": "WM",
+		"detail": "Warehouse Management permet de gérer les mouvements physiques des produits et des composants. Ainsi il répertorie les activités de réception des marchandises, rangement, préparation de commandes et expédition.",
+		"pourcentage": "30"
+	}, {
+		"module": "HR",
+		"detail": "Human Resources concerne la gestion des données de base du personnel, ce qui permet à l'entreprise d'effectuer un suivi du temps de travail, des carrières, de suivre et organiser le recrutement du personnel, l'embauche et la planification du personnel.",
+		"pourcentage": "20"
+	}],
+
+	"Sap_technos": [{
+		"techno": "ABAP"
+	}, {
+		"techno": "BAPI"
+	}, {
+		"techno": "ALV"
+	}, {
+		"techno": "Standard"
+	}, {
+		"techno": "User Exits"
+	}, {
+		"techno": "BADI"
+	}, {
+		"techno": "IDOC"
+	}],
+
+	"Sap_titre": "SAP",
+	"sap_modules_title": "Modules SAP",
+	"sap_technos_use": "Technologies utilisées",
+
+	"Sap_detail": {
+		"module_detail": [
+			"<p style='text-align: justify'>Un Consultant technique SAP est employé polyvalent. Avec l'expérience, il peut se rapprocher fortement du célèbre Technico-Fonctionnel. En effet, un Consultant technique n'est pas qu'un simple développeur. Il se doit de comprendre l'aspect métier afin de répondre le mieux possible à la demande du client.</p>",
+			"<p style='text-align: justify'>SAP est un ERP (Enterprise Ressource Planning), qui traite de nombreux flux tels que des flux de vente, des achats, de la logistique. C'est pour cela que ne pas avoir une bonne capacité d'adaptation peut être handicapant.",
+			"<p style='text-align: justify'>C'est également par la pratique qu'on peut devenir un bon Consultant technique et c'est notamment grace aux nombreux projets que j'ai pu développer des compétences transverses.</p>"
+		],
+		"techno_detail": [
+			"<p style='text-align: justify'>Dans le cadre de ma fonction, je réalise de nombreux développements en ABAP qui est le langage prioritaire de SAP.</p>",
+			"<p style='text-align: justify'>Je suis capable en partant de spécifications techniques détaillées, de réaliser des développements spécifiques sur SAP cela à travers la création de programme, de report tel que les ALV (Abap List Viewer) ou d’échanger des données entre différents systèmes grâce aux IDocs. De créer des formulaires Smartforms ou encore d’ajouter des fonctionnalités aux standards SAP grâce aux User exits, Customers exits et l’implémentation de BADI (Business Add-In).</p>"
+		]
+	},
+
+	"Sap_new_technos_titre": "Nouvelles technologies SAP",
+
+	"Sap_new_technos": [{
+		"langage": "SAPUI5/Fiori",
+		"detail": "",
+		"pourcentage": "70"
+	}, {
+		"langage": "S/4HANA",
+		"detail": "",
+		"pourcentage": "50"
+	}],
+
+	"Sap_new_technos_detail": [
+		"<p style='text-align: justify'>Aujourd'hui, SAP s'est beaucoup développé à travers de nouvelles technologies comme FIORI. Il y'a désormais du Cloud, des applications Web etc...</p>",
+		"<p style='text-align: justify'>A ce jour, je n'ai pas encore eu à developper d'application en FIORI pour un client. Mais ce portfolio m'a énormément aidé à developper mes compétences.</p>",
+		"<p style='text-align: justify'>Ce portfolio a été entièrement développé grâce à la technologie SAPUI5. Grâce aux plateformes de formations comme OpenSAP, il est plus facile de monter en compétence.</p>",
+		"<p style='text-align: justify'>Ce projet de portfolio me permettra donc à l'avenir d'être en capacité de gérer des demandes de clients qui touchent à FIORI.</a> . </p>"
+	],
+
+	"New_sap_technos": [{
+		"techno": "SAP Cloud Platform"
+	}, {
+		"techno": "HANA"
+	}, {
+		"techno": "Netweaver Gateway"
+	}, {
+		"techno": "Cloud Connector"
+	}, {
+		"techno": "Core Data Services"
+	}, {
+		"techno": "OData"
+	}, {
+		"techno": "ADT"
+	}, {
+		"techno": "Eclipse"
+	}]
+
+}

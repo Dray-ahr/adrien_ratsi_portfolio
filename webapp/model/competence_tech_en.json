@@ -1,0 +1,92 @@
+{
+
+	
+	
+	"rpa_titre": "RPA",
+
+	"rpa_competence": [{
+		"langage": "UiPath",
+		"pourcentage": "40"
+	}, {
+		"langage": "Automation Anywhere",
+		"pourcentage": "30"
+	}, {
+		"langage": "SAP iRPA",
+		"pourcentage": "20"
+	}],
+
+	"rpa_detail": [
+		"<p style='text-align: justify'>RPA (Robotic Process Automation) automate mundane rules-based business processes, enabling business users to devote more time to serving customers or other higher-value work.</p>",
+		"<p style='text-align: justify'>In my current position of RPA/AI consultant I use automation software like UiPAth or Automation Anywhere in order to automate business process in multiple systems : ERP, back office, citrix.</p>"
+	],
+
+	"htmlcssjs_titre": "HTML CSS JS",
+
+	"htmlcssjs_competence": [{
+		"langage": "HTML",
+		"pourcentage": "90"
+	}, {
+		"langage": "CSS",
+		"pourcentage": "90"
+	}, {
+		"langage": "Bootstrap",
+		"pourcentage": "70"
+	}, {
+		"langage": "jQuery",
+		"pourcentage": "80"
+	}, {
+		"langage": "Angular",
+		"pourcentage": "60"
+	}, {
+		"langage": "Node.js",
+		"pourcentage": "60"
+	}],
+
+	"htmlcssjs_detail": [
+		"<p style='text-align: justify'>IT Languages as HTML, CSS and JS are mainly used for the development of web applications and websites. There are IT languages that I have learned in the beginning thanks to different scholarship projects.</p>",
+		"<p style='text-align: justify'>Moreover, when I worked as IT Developer, for the first time I had to use my skills in these languages in the context of a professional project. </br> These rewarding experiences enabled me to consolidate my skills in order to respond to the business needs.</p>"
+	],
+
+	"javaphp_titre": "JAVA PHP",
+
+	"javaphp_competence": [{
+		"langage": "Java",
+		"pourcentage": "60"
+	}, {
+		"langage": "JEE",
+		"pourcentage": "40"
+	}, {
+		"langage": "PHP",
+		"pourcentage": "70"
+	}, {
+		"langage": "WordPress",
+		"pourcentage": "70"
+	}],
+
+	"javaphp_detail": [
+		"<p style='text-align: justify'>JAVA and PHP are different languages, the first is an object-oriented programming language and the second a script language primarily build for the development of web application.</p>",
+		"<p style='text-align: justify'>The different projects and professional experiences have contribute to use my skills on these different languages. Indeed, I was involved in application development in which I used language like PHP in order to create dynamic website for forms or mail sending requirements. </br>",
+		"With this language I also worked with some databases because PHP easily allow to communicate with a database thanks to the numerous interfaces and extensions. </p>"
+	],
+
+	"sql_titre": "SQL",
+
+	"sql_competence": [{
+		"langage": "MySQL",
+		"pourcentage": "70"
+	}, {
+		"langage": "Oracle",
+		"pourcentage": "50"
+	}, {
+		"langage": "NoSQL",
+		"pourcentage": "30"
+	}],
+
+	"sql_detail": [
+		"<p style='text-align: justify'>SQL is a request language enable to communicate with a database operating with key word to read, insert and modify data.</p>",
+		"<p style='text-align: justify'>I refined my knowledges in database thanks to many projects during which I contribute to design phase and database administration mainly on MySQL system. </br>",
+		"After these phases, during the development of the applications, I realized the queries providing access to the database tables.</p>",
+		"<p style='text-align: justify'>Moreover, in my study I was trained in SQL with different DBMS therewith to discover the various possibilities of each systems.</p>"
+	]
+
+}

@@ -1,0 +1,37 @@
+{
+
+	"Experiences": [{
+		"poste": "SAP Technical Consultant",
+		"date": " 2019-2020, 10 months",
+		"entreprise": "Augusta Reeves, Paris",
+		"logo": "Images/augustareeves_logo.png",
+		"mission": [
+			"<p>Assignments :</p> <ul> <li><p>ABAP, SAP UI5/Fiori, HANA Development</p></li> <li><p> Extending SAP S/4HANA </p></li> <li><p>SAP Analytics Cloud </p></li> <li><p>Drafting technical specifications</p></li> <li><p>Adding functionnalities</p></li> <li><p>Execution of functional and unit tests</p></li> </ul>"
+		]
+	}, {
+		"poste": "SAP Technical Consultant as Intern",
+		"date": " May-2019, 4 months",
+		"entreprise": "Augusta Reeves, Paris",
+		"logo": "Images/augustareeves_logo.png",
+		"mission": [
+			"<p>Assignments :</p> <ul> <li><p>ABAP</p></li> <li><p>Drafting technical specifications</p></li> <li><p>Adding functionnalities</p></li> <li><p>Execution of functional and unit tests</p></li> </ul>"
+		]
+	}, {
+		"poste": "Intern Network administrator",
+		"date": "2017, 2 months",
+		"entreprise": "Service informatique UFR Paris 8, Saint-Denis",
+		"logo": "Images/Paris8.jpg",
+		"mission": [
+			"<p>Missions : </p> <ul> <li><p>Installation of server DHCP, DNS and Routing (Linux)</p></li> <li><p>Setting up of a network, configuration of switch and router (Linux)</p></li> <li><p>Server configuration backup: TFTP, FTP, SFTP, SSH on CISCO and Juniper</p></li> <li><p>Installation/deployment server : PXE, DHCP, TFTP (Linux)</p></li> </ul> "
+		]
+	}, {
+		"poste": "Airport VIP welcome host",
+		"date": "2015-2016, 7 months",
+		"entreprise": "City One, Roissy Charles de Gaulle",
+		"logo": "Images/cityone.jpg",
+		"mission": [
+			"<p>Missions : </p> <ul> <li><p>Team manager</p></li> <li><p>Organization of passenger flow</p></li> <li><p>Diploma reception for the COP21 event</p></li> </ul>"
+		]
+	}]
+
+}

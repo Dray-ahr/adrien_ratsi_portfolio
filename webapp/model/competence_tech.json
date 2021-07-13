@@ -1,0 +1,115 @@
+{
+
+	"Competences_techniques": [{
+		"id": "sap_competence",
+		"nom": "SAP",
+		"image": "Images/sap_logo.png"
+	}, {
+		"id": "htmlcssjs_competence",
+		"nom": "HTML CSS JS",
+		"image": "Images/progweb.png"
+	}, {
+		"id": "javaphp_competence",
+		"nom": "Programmation générale",
+		"image": "Images/progGen.png"
+	}, {
+		"id": "sql_competence",
+		"nom": "Data/Base de données",
+		"image": "Images/database.png"
+	}],
+
+	"rpa_titre": "RPA",
+
+	"rpa_competence": [{
+		"langage": "UiPath",
+		"pourcentage": "40"
+	}, {
+		"langage": "Automation Anywhere",
+		"pourcentage": "30"
+	}, {
+		"langage": "SAP iRPA",
+		"pourcentage": "20"
+	}],
+
+	"rpa_detail": [
+		"<p style='text-align: justify'>Les logiciels d'automatisation de processus tels que UiPath ou Automation Anywhere sont des logiciels utilisés principalement dans le cadre de l'automatisation de processus métiers répétitives et à faible valeur ajoutée.</p>",
+		"<p style='text-align: justify'>Ce sont des logiciels que je découvre et utilise dans mon poste de consultant RPA/IA, ils permettent d'automatiser des tâches sur différents environnements : ERP, outils microsoft, outils back-offices, citrix et bien d'autres.</p>"
+	],
+
+	"htmlcssjs_titre": "HTML CSS JS",
+
+	"htmlcssjs_competence": [{
+		"langage": "HTML",
+		"pourcentage": "80"
+	}, {
+		"langage": "CSS",
+		"pourcentage": "70"
+	}, {
+		"langage": "PHP",
+		"pourcentage": "50"
+	}, {
+		"langage": "JavaScript",
+		"pourcentage": "70"
+	}],
+
+	"htmlcssjs_detail": [
+		"<p style='text-align: justify'>Ces languages de programmation sont souvent parmis les premiers appris par un Développeur. Ils sont généralement utilisé pour le développement Web.</p>",
+		"<p style='text-align: justify'>Pour ma part, j'ai appris à travailler avec ces languages durant mon parcours universitaire et pendant des projet.</p>",
+		"<p style='text-align: justify'>Encore aujourd'hui, je m'en sers pour par exemple créer ce portfolio. Mais ils me serviront également pour de futures projets FIORI pour des clients.</p>"
+	],
+
+	"javaphp_titre": "Programmation générale",
+
+	"javaphp_competence": [{
+		"langage": "Java",
+		"pourcentage": "60"
+	}, {
+		"langage": "C#",
+		"pourcentage": "55"
+	}, {
+		"langage": "XML",
+		"pourcentage": "70"
+	}, {
+		"langage": "Python",
+		"pourcentage": "60"
+	}, {
+		"langage": "JEE",
+		"pourcentage": "40"
+	}],
+
+	"javaphp_detail": [
+		"<p style='text-align: justify'>Ces languages de programmation sont pour moi des languages dit plus général. Ils permettent de développer des applications. Ils peuvent aussi accompagner nos applications Web et y ajouter de forts utiles fonctionnalités.</p>",
+		"<p style='text-align: justify'>C'est encore principalement durant mon parcours universitaire que j'ai pu avoir recours à ces technologies. On a eu beaucoup de projets à faire avec pratique et théorie.</p>",
+		"<p style='text-align: justify'>C'est surtout les combinaisons entre ces technologies qui font leur force. Notamment combiner Base de données avec du Java etc...</p>"
+	],
+
+	"sql_titre": "Data",
+
+	"sql_competence": [{
+		"langage": "SQL",
+		"pourcentage": "70"
+	}, {
+		"langage": "Power BI",
+		"pourcentage": "40"
+	}, {
+		"langage": "Oracle/BI",
+		"pourcentage": "50"
+	}, {
+		"langage": "MongoDB",
+		"pourcentage": "30"
+	}, {
+		"langage": "NoSQL",
+		"pourcentage": "40"
+	}, {
+		"langage": "ERP Sage X3",
+		"pourcentage": "55"
+	}],
+
+	"sql_detail": [
+		"<p style='text-align: justify'>La Data est un domaine que j'apprécie fortement. J'avais commencé par du SQL où on effectue des requêtes pour retrouver certaines données.</p>",
+		"<p style='text-align: justify'>C'est grâce aux différents projets que j'ai pu faire, que j'ai découvert encore d'autres domaines. Comme par exemple le BPEL, une techno d'Oracle. </br>",
+		"Le principe de rechercher des données dans des tables, grâce à des liens insoupçonnable, me fascine beaucoup.</p>",
+		"<p style='text-align: justify'>C'est ainsi que j'ai découvert SAP qui mine de rien, tourne beaucoup autour de la Data. Et le grand plus, c'est qu'aujourd'hui, SAP ne se limite plus à l'ABAP mais permet aussi d'utiliser d'autres technos par l'intermédiaire de FIORI, S4HANA, SAP Cloud etc...</p>"
+	]
+
+}

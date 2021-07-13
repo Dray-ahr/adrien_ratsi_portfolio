@@ -1,0 +1,171 @@
+/********************** View accueil ********************/
+
+.hide {
+    display: none;
+}
+
+.red {
+    color: red !important;
+}
+
+.certification_button{
+	background-color: #0070b1; /*#3f5161;*/
+	border-radius: 30%;
+	padding: 10px;
+	text-decoration: none !important;
+	color: white !important;
+}
+
+.sapMPanelContent:not(.sapMPanelBGTransparent) {
+    border-bottom: none !important;
+}
+
+.sapUshellShellHeadContainer > #backBtn{
+	display: none;
+}
+
+/*titre prénom */
+
+.prenom_nom {
+    font-weight: bold !important;
+    font-size: 2.5em;
+    font-family: Helvetica;
+    text-align: center;
+}
+
+
+/* titre poste */
+
+.poste {
+    font-family: Open Sans !important;
+    font-size: 1.3em;
+    text-align: center;
+}
+
+.sapUxAPObjectPageSection {
+    padding-top: 20px;
+}
+
+.sapUxAPObjectPageSectionHeader {
+    text-align: center !important;
+    border-bottom: none;
+}
+
+
+/* titre des sections de page */
+
+.sapUxAPObjectPageSectionTitle {
+    border-bottom: none;
+    font-size: 2rem;
+}
+
+.me_image {
+    border-radius: 100px;
+    -webkit-border-radius: 100px;
+    -moz-border-radius: 100px;
+    border: solid #f9f9f9 3px;
+}
+
+
+/* sections*/
+
+.section_presentation,
+.section_experience,
+.section_realisation,
+.section_temoignage {
+    background-color: white;
+}
+
+.section_formation,
+.section_competence {
+    background-color: #f9f9f9;
+    /* #eff4f9;*/
+}
+
+
+/* sous titre dans section cométences */
+
+.competence_titre {
+    font-family: Open Sans !important;
+    font-size: 20px !important;
+    padding-right: 47px;
+}
+
+
+/* Image entreprise dans timelineitem */
+
+.sapSuiteUiCommonsTimelineItemUserPicture {
+    width: 7rem !important;
+    height: 7rem !important;
+}
+
+
+/* Nom du poste dans timelineitem */
+
+.sapSuiteUiCommonsTimelineItemShellHdr {
+    font-weight: bold !important;
+    font-size: 1, 2rem;
+}
+
+
+/* Date de poste dans timelineitem */
+
+.sapSuiteUiCommonsTimelineItemShellDateTime {
+    font-size: 0, 9rem;
+}
+
+.nom_competence {
+    font-weight: bold !important;
+}
+
+.image_competence {
+    /* effet zoom */
+    /*-webkit-transform: scale(1);*/
+    /*transform: scale(1);*/
+    /*-webkit-transition: .3s ease-in-out;*/
+    /*transition: .3s ease-in-out;*/
+    opacity: 1;
+    -webkit-transition: .3s ease-in-out;
+    transition: .3s ease-in-out;
+}
+
+.image_competence:hover {
+    /* effet zoom */
+    /*-webkit-transform: scale(1.3);*/
+    /*transform: scale(1.3);*/
+    opacity: .5;
+}
+
+.tileLayout {
+    width: 18.5rem !important;
+}
+
+
+/*temoignage_display_morebutton*/
+
+.sapMNLI-CollapseButton {
+    display: none;
+}
+
+
+/* texte des témoignages */
+
+.sapMTextMaxLine {
+    color: white;
+}
+
+
+/* titre dans texte de compétences humaines */
+
+.titre_humaine_competence {
+    font-family: Calibri !important;
+    font-style: Italic;
+    color: #6495ED;
+}
+
+
+/*SAP et techno SAP */
+.button_techno > * {
+    background-color: #3f5161 !important;
+    color: white;
+}

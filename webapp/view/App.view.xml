@@ -1,0 +1,12 @@
+<mvc:View
+	xmlns:mvc="sap.ui.core.mvc"
+	controllerName="adrien_ratsimihah_portfolio.controller.App"
+	displayBlock="true"
+	xmlns="sap.m"
+	class="sapUiSizeCompact">
+
+	<App id="app"
+		 busy="{appView>/busy}"
+		 busyIndicatorDelay="{appView>/delay}"/>
+
+</mvc:View>

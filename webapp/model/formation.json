@@ -1,0 +1,31 @@
+{
+
+	"Formations": [{
+		"logo": "Images/intechinfoesieagroupe.png",
+		"adresse": "74 BIS AVENUE MAURICE THOREZ, 94200 IVRY-SUR-SEINE",
+		"diplôme": "<strong> Expert en Ingénierie du Logiciel, Titre RNCP Niveau 1 / BAC +5, IN'TECH </strong>",
+		"date": "2019-2021",
+		"cours": "<ul> <li>Javascript avancé</li> <li>Développement avancé d'applications</li> <li>Communication</li>",
+		"cours2": "Développement avancé d'applications",
+		"cours3": "Communication"
+	}, {
+		"logo": "Images/iut_descartes.png",
+		"adresse": "143 AVENUE DE VERSAILLES, 75016 PARIS",
+		"diplôme": "<strong>Licence Professionnelle Métiers de l'informatique,  IUT Paris Descartes</strong>",
+		"date": "2018-2019",
+		"cours": "<ul> <li>Programmation Web</li> <li>Base de données avancée</li> <li>Business Intelligence et Systèmes d'Information</li> <li>SAGE</li>",
+		"cours2": "Base de données avancée",
+		"cours3": "Business Intelligence et Systèmes d'Information",
+		"cours4": "SAGE"
+	}, {
+		"logo": "Images/geccel.jpg",
+		"adresse": "36 Avenue Frédéric Joliot-Curie, 95140 Garges-lès-Gonesse",
+		"diplôme": "<strong>BTS Service Informatique aux Organisations, Geccel Informatique</strong>",
+		"date": "2017-2018",
+		"cours": "<ul> <li>Installation de serveurs</li> <li>Configuration Windows/Linux</li> <li>Programmation Python</li> <li>Mise en place de systèmes réseaux/Maintenance (Routeurs, Switchs)</li>",
+		"cours2": "Programmation Python",
+		"cours3": "Linux",
+		"cours4": "TFTP"
+	}]
+
+}

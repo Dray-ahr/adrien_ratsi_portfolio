@@ -1,0 +1,5 @@
+---
+applications:
+  - name: adrien_ratsimihah_portfolio
+    buildpack: staticfile_buildpack
+    memory: 512M

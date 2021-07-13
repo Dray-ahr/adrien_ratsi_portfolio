@@ -1,0 +1,37 @@
+{
+
+	"Experiences": [{
+		"poste": "Consultant technique SAP",
+		"date": "de 2019-2020, 10 mois",
+		"entreprise": "Augusta Reeves, Paris",
+		"logo": "Images/augustareeves_logo.png",
+		"mission": [
+			"<p>Missions :</p> <ul> <li><p>Développement ABAP, SAP UI5/Fiori, HANA</p></li> <li><p>Extension SAP S/4HANA </p></li> <li><p>SAP Analytics Cloud </p></li> <li><p>Rédaction de spécifications techniques détaillées</p></li> <li><p>Ajout de fonctionnalités</p></li> <li><p>Préparation, exécution et validation des tests unitaires</p></li> </ul>"
+		]
+	}, {
+		"poste": "Stage de Consultant technique SAP",
+		"date": "Mai-2019, 4 mois",
+		"entreprise": "Augusta Reeves, Paris",
+		"logo": "Images/augustareeves_logo.png",
+		"mission": [
+			"<p>Missions :</p> <ul> <li><p>Développement ABAP</p></li> <li><p>Rédaction de spécifications techniques détaillées</p></li> <li><p>Ajout de fonctionnalités</p></li> <li><p>Préparation, exécution et validation des tests unitaires</p></li> </ul>"
+		]
+	}, {
+		"poste": "Stage administrateur réseaux",
+		"date": "en 2017, 2 mois",
+		"entreprise": "Service informatique UFR Paris 8, Saint-Denis",
+		"logo": "Images/Paris8.jpg",
+		"mission": [
+			"<p>Missions : </p> <ul> <li><p>Installation de serveur DHCP, DNS et du Routage (Linux)</p></li> <li><p>Mise en place d'un réseau, configuration de switchs et routeurs (Linux)</p></li> <li><p>Sauvegarde de configurations sur serveur: TFTP, FTP, SFTP, SSH sur CISCO et Juniper</p></li> <li><p>Serveur d'installation/déploiement : PXE, DHCP, TFTP (Linux)</p></li> </ul> "
+		]
+	}, {
+		"poste": "Hôte d'accueil VIP aéroportuaire",
+		"date": "en 2015-2016, 7 mois",
+		"entreprise": "City One, Roissy Charles de Gaulle",
+		"logo": "Images/cityone.jpg",
+		"mission": [
+			"<p>Missions : </p> <ul> <li><p>Responsable d'équipe</p></li> <li><p>Organisation du flux voyageur</p></li> <li><p>Réception de diplômates pour l'évènement COP21</p></li> </ul>"
+		]
+	}]
+
+}

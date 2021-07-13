@@ -1,0 +1,81 @@
+{
+	"title": "Adrien RATSIMIHAH",
+	"appTitle": "Le Portfolio d'Adrien RATSIMIHAH",
+	"appDescription": "Portfolio d'Adrien RATSIMIHAH",
+
+	"error_required_fields_message": "Veuillez renseigner les champs obligatoires",
+	"error_minimal_length_message": "Le message doit être composé d'au moins 10 caractères",
+	"invalid_mail_message": "Veuillez renseigner un mail valide",
+	"good_sending_message": "Mail envoyé",
+	"bad_sending_message": "Erreur lors de l'envoi du mail",
+	"reload_page_message": "Erreur lors de la récupération des données. L'application va devoir redémarrer.",
+	"confirm_message": "Confirmation",
+	"error_message": "Erreur",
+
+	"prenom_nom": "Adrien RATSIMIHAH",
+	"prenom": "Adrien",
+	"nom": "Ratsimihah",
+	"mail": "adrien.ahr@gmail.com",
+	"address": "Paris, France",
+	"linkedin": "<a href='https://www.linkedin.com/in/adrien-ratsi'> LinkedIn </a>",
+	"cv_link": "/Docs/CV_Adrien_Ratsi.pdf",
+	"poste": "CONSULTANT TECHNIQUE SAP",
+	"introduction1": "Bonjour et bienvenue sur mon Portfolio 🙂 ! Je m'appelle Adrien RATSIMIHAH, j'ai 25 ans et j'exerce dans le métier de l'informatique 👨💻.",
+	"introduction2": "Grâce à mes experiences acquises, j'ai pu développer un profil polyvalent et efficace dans les services rendus. J'ai donc un bon baggage technique mais également de bonnes compétences transverses qui me permettent de m'adapter très vite.",
+	"introduction3": "Sinon, je pratique beaucoup de Sport en compétition, comme le basketball 🏀, ce qui me permet de garder une certaine dynamique. Au delà du sport et de l'informatique, je joue également du Piano 🎹, je lis beaucoup de Manga et j'aime voyager ✈️.",
+
+	"section1_titre": "PRÉSENTATION",
+	"section2_titre": "COMPÉTENCES",
+	"section3_titre": "EXPÉRIENCES",
+	"section4_titre": "FORMATION",
+	"section5_titre": "RÉALISATIONS",
+	"section6_titre": "TÉMOIGNAGES",
+	"section7_titre": "CONTACT",
+	"technique_titre": "TECHNIQUES",
+	"humaine_titre": "HUMAINES",
+
+	"download_cv": "TÉLÉCHARGER MON CV",
+	"show_certification": "VOIR MES CERTIFICATIONS",
+	"detail": "Détails",
+	"temoignage": "Témoignages",
+
+	"labelcontactFormName": "Nom",
+	"labelcontactFormMail": "Email",
+	"labelcontactFormMessage": "Message",
+	"submitFormButton": "Envoyer",
+
+	"id_rpa": "RPA",
+	"rpa_title": "RPA",
+
+	"id_sap": "SAP",
+	"sap_title": "SAP",
+	"sap_modules_title": "Modules SAP",
+	"sap_technos_use": "Technologies utilisées",
+
+	"id_technosap": "NEWSAP",
+	"technosap_title": "Nouvelles technologies SAP",
+
+	"id_htmlcssjs": "HTMLCSSJS",
+	"htmlcssjs_title": "HTML CSS JS",
+
+	"id_javaphp": "JAVAPHP",
+	"javaphp_title": "Java PHP",
+
+	"id_sql": "SQL",
+	"sql_title": "SQL",
+
+	"id_flexibilite": "Flexibilité",
+	"flexibilite_title": "Flexibilité",
+
+	"id_presenter": "Présenter",
+	"presenter_title": "Présenter",
+
+	"id_transmettre": "Transmettre",
+	"transmettre_title": "Transmettre",
+
+	"id_autonomie": "Autonomie",
+	"autonomie_title": "Autonomie",
+
+	"realisation_title": "Quelques réalisations"
+
+}

@@ -1,0 +1,80 @@
+{
+	"title": "Adrien RATSIMIHAH",
+	"appTitle": "Portfolio of Adrien RATSIMIHAH",
+	"appDescription": "Portfolio of Adrien RATSIMIHAH",
+
+	"error_required_fields_message": "Please enter all the required fields",
+	"error_minimal_length_message": "Message must contain at least five character",
+	"invalid_mail_message": "Please enter a valid email adress",
+	"good_sending_message": "Mail send",
+	"bad_sending_message": "Failure sending mail",
+	"reload_page_message": "Failure during the data fetching. Application must be reload.",
+	"confirm_message": "Confirm",
+	"error_message": "Error",
+
+	"prenom_nom": "Adrien RATSIMIHAH",
+	"prenom": "Adrien",
+	"nom": "Ratsimihah",
+	"mail": "adrien.ahr@gmail.com",
+	"address": "Paris, France",
+	"linkedin": "<a href='https://www.linkedin.com/in/adrien-ratsi'> LinkedIn </a>",
+	"cv_link": "/Docs/CV_Adrien_Ratsi.pdf",
+	"poste": "SAP TECHNICAL CONSULTANT",
+	"introduction1": "Hello and welcome to my Portfolio 🙂 ! My name is Adrien RATSIMIHAH, I am 25 years old and I work in computer science 👨💻.",
+	"introduction2": "Thanks to my acquired experiences, I have been able to develop a versatile and efficient profile in the services rendered. I therefore have a good technical background but also good transversal skills that allow me to adapt very quickly.",
+	"introduction3": "Otherwise, I practice a lot of sports with competition, such as basketball 🏀, which allows me to keep a certain dynamic. Beyond sports and computer science, I also play Piano 🎹, I read a lot of Manga and I like to travel ✈️.",
+
+	"section1_titre": "INTRODUCTION",
+	"section2_titre": "SKILLS",
+	"section3_titre": "EXPERIENCES",
+	"section4_titre": "EDUCATION",
+	"section5_titre": "PROJECT REALISATION",
+	"section6_titre": "TESTIMONIES",
+	"section7_titre": "CONTACT",
+	"technique_titre": "TECHNICALS",
+	"humaine_titre": "HUMANS",
+
+	"download_cv": "DOWNLOAD MY CV",
+	"show_certification": "SEE MY CERTIFICATIONS",
+	"detail": "Details",
+	"temoignage": "Testimonies",
+
+	"labelcontactFormName": "Name",
+	"labelcontactFormMail": "Mail",
+	"labelcontactFormMessage": "Message",
+	"submitFormButton": "Send",
+
+	"id_rpa": "RPA",
+	"rpa_title": "RPA",
+
+	"id_sap": "SAP",
+	"sap_title": "SAP",
+	"sap_modules_title": "SAP Modules",
+	"sap_technos_use": "USED TECHNOLOGIES",
+
+	"id_technosap": "NEWSAP",
+	"technosap_title": "SAP New Technologies",
+
+	"id_htmlcssjs": "HTMLCSSJS",
+	"htmlcssjs_title": "HTML CSS JS",
+
+	"id_javaphp": "JAVAPHP",
+	"javaphp_title": "Java PHP",
+
+	"id_sql": "SQL",
+	"sql_title": "SQL",
+
+	"id_adaptabilite": "Flexibilité",
+	"adaptabilite_title": "Flexibility",
+
+	"id_presenter": "Présenter",
+	"presenter_title": "Show",
+
+	"id_transmettre": "Transmettre",
+	"transmettre_title": "Transfer",
+
+	"id_autonomie": "Autonomie",
+	"autonomie_title": "Autonomy",
+
+	"realisation_title": "Some realisations"
+}

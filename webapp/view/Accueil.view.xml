@@ -1,0 +1,223 @@
+<mvc:View xmlns:core="sap.ui.core" xmlns:mvc="sap.ui.core.mvc" xmlns="sap.m" xmlns:u="sap.uxap" xmlns:l="sap.ui.layout"
+	xmlns:sample="sap.uxap.sample.ObjectPageSubSection" xmlns:c="sap.suite.ui.commons" xmlns:f="sap.ui.layout.form" xmlns:ul="sap.ui"
+	xmlns:cust="http://schemas.sap.com/sapui5/extension/sap.ui.core.CustomData/1" height="100%"
+	controllerName="adrien_ratsimihah_portfolio.controller.Accueil" id="Accueil">
+	<Page title="Accueil" showHeader="false" id="Page">
+		<content>
+			<u:ObjectPageLayout id="ObjectPageLayout" showFooter="true">
+				<u:headerTitle>
+					<u:ObjectPageHeader id="ObjectPageLayoutHeaderTitle"/>
+				</u:headerTitle>
+				<u:headerContent>
+					<l:VerticalLayout width="100%">
+						<l:content>
+							<FlexBox height="70px" alignItems="Center" justifyContent="Center">
+								<items>
+									<Text class="prenom_nom sapUiTinyMarginEnd" text="{general>/prenom}"/>
+									<Text class="prenom_nom" text="{general>/nom}"/>
+								</items>
+							</FlexBox>
+							<FlexBox height="100px" alignItems="Center" justifyContent="Center">
+								<items>
+									<Text class="poste" text="{general>/poste}"/>
+								</items>
+							</FlexBox>
+							<!--<HBox>-->
+							<!--	<Image id="fr_flag" press="changeLanguage" src="{imageModel>/path}/Images/fr_flag.jpg" width="20px" class="sapUiSmallMarginEnd"-->
+							<!--		alt="flag_french"/>-->
+							<!--	<Image id="en_flag" press="changeLanguage" src="{imageModel>/path}/Images/en_flag.jpg" width="20px" alt="flag_england"/>-->
+							<!--</HBox>-->
+						</l:content>
+					</l:VerticalLayout>
+				</u:headerContent>
+				<u:sections>
+					<u:ObjectPageSection class="section_presentation">
+						<u:ObjectPageSubSection title="{general>/section1_titre}" mode="Expanded">
+							<u:blocks>
+								<l:Grid class="sapUiLargeMarginTop" hSpacing="2" defaultSpan="L6 M6 S10" defaultIndent="XL0 L1 M1 S1">
+									<l:content>
+										<VBox>
+											<Image class="me_image" src="{imageModel>/path}/Images/Moi.jpg" width="100%" alt="moi"/>
+											<layoutData>
+												<l:GridData span="L3 M3 S8" linebreakL="true" linebreakM="true" linebreakS="true"/>
+											</layoutData>
+										</VBox>
+										<VBox class="sapUiLargeMarginTop">
+											<Text text="{general>/introduction1}" class="nameTitle"/>
+											<Text text="&#xA;{general>/introduction2}"/>
+											<Text text="&#xA;{general>/introduction3}"/>
+											<!--<HBox class="sapUiMediumMarginTop">-->
+											<!--	<core:Icon src="sap-icon://download" class="size2" color="#031E48" alt="download"/>-->
+											<!--	<Link text="{general>/download_cv}" target="_blank" id="CV_link" href="{imageModel>/path}{general>/cv_link}" emphasized="true"-->
+											<!--		subtle="false"/>-->
+											<!--</HBox>-->
+										</VBox>
+									</l:content>
+								</l:Grid>
+							</u:blocks>
+						</u:ObjectPageSubSection>
+					</u:ObjectPageSection>
+					<u:ObjectPageSection class="section_competence" visible="true">
+						<u:subSections>
+							<u:ObjectPageSubSection title="{general>/section2_titre}" mode="Collapsed">
+								<u:blocks>
+									<VBox class="sapUiLargeMargin sapUiSmallMarginTop">
+										<Text text="{general>/technique_titre}" width="100%" textAlign="Center" class="sapUiMediumMargin competence_titre"/>
+										<HBox id="HBoxcompetence_tech" items="{competence_tech>/Competences_techniques}" justifyContent="SpaceBetween" wrap="Wrap">
+											<VBox class="sapUiSmallMargin" alignItems="Center">
+												<Text class="nom_competence" text="{competence_tech>nom}" textAlign="Center" width="100%"/>
+												<Image src="{imageModel>/path}/{competence_tech>image}" press="onCompetenceTechClick" cust:id_competence="{competence_tech>id}"
+													width="140px" height="120px" alt="{competence_tech>nom}" class="sapUiSmallMarginTop sapUiSmallMarginBottom image_competence"/>
+												<Link text="{general>/detail}" textAlign="Center" width="100%" press="onCompetenceTechClick" cust:detail_competence="{competence_tech>id}"/>
+											</VBox>
+										</HBox>
+										<Text text="{general>/humaine_titre}" width="100%" textAlign="Center" class="sapUiMediumMargin competence_titre"/>
+										<HBox items="{competence_hum>/Competences_humaines}" justifyContent="SpaceBetween" wrap="Wrap">
+											<VBox class="sapUiSmallMargin" alignItems="Center">
+												<Text class="nom_competence" text="{competence_hum>nom}" textAlign="Center" width="100%"/>
+												<Image src="{imageModel>/path}/{competence_hum>image}" press="onCompetenceHumClick" cust:id_competence="{competence_hum>id}" width="140px"
+													height="120px" alt="{competence_hum>nom}" class="sapUiSmallMarginTop sapUiSmallMarginBottom image_competence"/>
+												<Link text="{general>/detail}" textAlign="Center" width="100%" press="onCompetenceHumClick" cust:detail_competence="{competence_hum>id}"/>
+											</VBox>
+										</HBox>
+										<!--<VBox class="sapUiMediumMarginTop" alignItems="Center">-->
+										<!--	<Link class="certification_button" text="{general>/show_certification}" target="_blank"-->
+										<!--		href="https://mylearning-p1942633315trial.dispatcher.hanatrial.ondemand.com/index.html"/>-->
+										<!--</VBox>-->
+									</VBox>
+								</u:blocks>
+							</u:ObjectPageSubSection>
+						</u:subSections>
+					</u:ObjectPageSection>
+					<u:ObjectPageSection class="section_experience">
+						<u:ObjectPageSubSection title="{general>/section3_titre}" mode="Expanded">
+							<u:blocks>
+								<FlexBox fitContainer="true" direction="Column" alignContent="Stretch" renderType="Bare">
+									<c:Timeline id="idTimeline" axisOrientation="Vertical" enableScroll="false" enableDoubleSided="true" showFilterBar="false"
+										showHeaderBar="false" showSort="false" sort="false" height="100%" showIcons="true" showSuggestion="false" showTimeFilter="false"
+										enableModelFilter="false" enableBackendFilter="false" enableAllInFilterItem="false" content="{experience>/Experiences}">
+										<c:content>
+											<c:TimelineItem class="item_experience" title="{experience>poste}" dateTime="{experience>date}"
+												userPicture="{imageModel>/path}/{experience>logo}">
+												<FormattedText htmlText="{experience>mission}"/>
+											</c:TimelineItem>
+										</c:content>
+									</c:Timeline>
+								</FlexBox>
+							</u:blocks>
+						</u:ObjectPageSubSection>
+					</u:ObjectPageSection>
+					<u:ObjectPageSection class="section_formation">
+						<u:ObjectPageSubSection title="{general>/section4_titre}" mode="Expanded">
+							<u:blocks>
+								<l:Grid content="{formation>/Formations}" defaultSpan="XL12 L12 M12 S12">
+									<Panel headerText="{formation>date}">
+										<Image src="{imageModel>/path}/{formation>logo}" height="100px" alt="ecole"/>
+										<Text textAlign="Left" width="100%" class="sapUiSmallMarginTop sapUiSmallMarginBottom" text="{formation>adresse}"/>
+										<FormattedText class="sapUiSmallMarginBottom" htmlText="{formation>diplôme}"/>
+										<FormattedText htmlText="{formation>cours}"/>
+										<layoutData>
+											<l:GridData span="L3"/>
+										</layoutData>
+									</Panel>
+								</l:Grid>
+							</u:blocks>
+						</u:ObjectPageSubSection>
+					</u:ObjectPageSection>
+					<u:ObjectPageSection class="section_realisation">
+						<u:ObjectPageSubSection title="{general>/section5_titre}" mode="Expanded">
+							<u:blocks>
+								<l:Grid content="{realisation>/Realisations}">
+									<GenericTile class="sapUiTinyMarginBegin sapUiTinyMarginTop tileLayout" frameType="TwoByOne" press="onRealisationClick"
+										backgroundImage="{imageModel>/path}/{realisation>image}" failedText="{realisation>index}">
+										<tileContent>
+											<TileContent>
+												<content>
+													<NewsContent contentText="{realisation>nom}" subheader="{realisation>modules}"></NewsContent>
+												</content>
+											</TileContent>
+										</tileContent>
+									</GenericTile>
+								</l:Grid>
+							</u:blocks>
+						</u:ObjectPageSubSection>
+					</u:ObjectPageSection>
+					<u:ObjectPageSection class="section_temoignage" visible="false">
+						<u:ObjectPageSubSection title="{general>/section6_titre}" mode="Expanded">
+							<u:blocks>
+								<Carousel class="sapUiContentPadding" loop="true">
+									<pages>
+										<List id="notificationList" class="sapContrastPlus">
+											<NotificationListItem title="" description="{temoignage>/temoignage1}" showCloseButton="false" datetime="" unread="true" truncate="false"
+												priority="High" close="onItemClose" press="onListItemPress"
+												authorName="{temoignage>/temoignage1_auteur} - {temoignage>/temoignage1_fonction}" authorPicture=""></NotificationListItem>
+										</List>
+										<List id="notificationList2" class="sapContrastPlus">
+											<NotificationListItem title="" description="{temoignage>/temoignage2}" showCloseButton="false" datetime="" unread="true" truncate="false"
+												priority="Medium" close="onItemClose" press="onListItemPress"
+												authorName="{temoignage>/temoignage2_auteur} - {temoignage>/temoignage2_fonction}" authorPicture=""></NotificationListItem>
+										</List>
+									</pages>
+								</Carousel>
+							</u:blocks>
+						</u:ObjectPageSubSection>
+					</u:ObjectPageSection>
+					<u:ObjectPageSection class="section_contact">
+						<u:ObjectPageSubSection title="{general>/section7_titre}" mode="Expanded">
+							<u:blocks>
+								<VBox class="sapUiSmallMargin" alignItems="Center">
+									<VBox direction="Row" displayInline="true">
+										<core:Icon src="sap-icon://customer" class="size2 sapUiSmallMarginEnd" color="#031E48">
+											<core:layoutData>
+												<FlexItemData growFactor="20"/>
+											</core:layoutData>
+										</core:Icon>
+										<FormattedText htmlText="{general>/linkedin}"/>
+									</VBox>
+									<VBox direction="Row" displayInline="true">
+										<core:Icon src="sap-icon://email" class="size2 sapUiSmallMarginEnd" color="#031E48">
+											<core:layoutData>
+												<FlexItemData growFactor="20"/>
+											</core:layoutData>
+										</core:Icon>
+										<Label text="{general>/mail}" class="sapUiMediumMarginEnd"/>
+									</VBox>
+									<VBox direction="Row" displayInline="true">
+										<core:Icon src="sap-icon://map" class="size2 sapUiSmallMarginEnd" color="#031E48">
+											<core:layoutData>
+												<FlexItemData growFactor="20"/>
+											</core:layoutData>
+										</core:Icon>
+										<Label text="{general>/address}"/>
+									</VBox>
+									<f:SimpleForm id="contactForm" editable="true" layout="ResponsiveGridLayout" labelSpanXL="4" labelSpanL="3" labelSpanM="4" labelSpanS="12"
+										adjustLabelSpan="false" emptySpanXL="0" emptySpanL="4" emptySpanM="0" emptySpanS="0" columnsXL="2" columnsL="1" columnsM="1"
+										singleContainerFullSize="false" class="sapUiMediumMarginTop">
+										<f:content>
+											<VBox alignItems="Center">
+												<Label text="{general>/labelcontactFormName}" required="true"/>
+												<Input id="contactFormName" required="true" liveChange="contactFormChange" width="250px"/>
+												<Label text="{general>/labelcontactFormMail}" required="true"/>
+												<Input id="contactFormMail" value="" required="true" liveChange="contactFormChange" width="250px"/>
+												<Text text="" id="errorMailValidityLabel" visible="false" class="red"/>
+												<Label text="{general>/labelcontactFormMessage}" required="true"/>
+												<TextArea id="contactFormMessage" rows="6" required="true" liveChange="contactFormChange" width="400px" height="250px"/>
+												<Text text="" id="errorMessageLengthLabel" visible="false" class="red"/>
+												<Button id="submitFormButton" text="{general>/submitFormButton}" enabled="false" press="submitContactForm"/>
+											</VBox>
+										</f:content>
+									</f:SimpleForm>
+								</VBox>
+							</u:blocks>
+						</u:ObjectPageSubSection>
+					</u:ObjectPageSection>
+				</u:sections>
+			</u:ObjectPageLayout>
+		</content>
+		<!--<footer>-->
+		<!--	<Toolbar>-->
+		<!--		<Label text=" ©Adrien RATSIMIHAH - adrien.ahr@gmail.com"/>-->
+		<!--	</Toolbar>-->
+		<!--</footer>-->
+	</Page>
+</mvc:View>

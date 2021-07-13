@@ -1,0 +1,112 @@
+{
+
+	"Competences_humaines": [{
+		"id": "autonomie_competence",
+		"nom": "Structuré",
+		"image": "Images/organized.jpg"
+    }, {
+		"id": "flexibilite_competence",
+		"nom": "Flexibilité",
+		"image": "Images/flexibility.jpg"
+	}, {
+		"id": "transmettre_competence",
+		"nom": "Transmettre",
+		"image": "Images/transfer.jpg"
+	}, {
+		"id": "presenter_competence",
+		"nom": "Présenter",
+		"image": "Images/show.jpg"
+	}],
+    
+
+	"Flexibilite": {
+		"TITRE": "Flexibilité",
+		"titre1": "Un consultant flexible ?",
+		"partie1": [
+			"<p style='text-align: justify'> En tant que Consultant informatique, il faut se mettre en condition opérationnelle rapidement afin de répondre aux exigences du client. La flexibilité demande une bonne organisation, de la flexibilité et une gymnastique de l’esprit. </p>",
+			"<p style='text-align: justify'>C’est un atout majeur car cela permet un gain de temps non négligeable lors de la réalisation de projet. Et enfin un consultant qui s’adapte facilement est un consultant performant qui est plus facile à staffer.</p>"
+		],
+		"titre2": "Ma flexibilité au quotidien",
+		"partie2": [
+			"<p style='text-align: justify'>Dans ma fonction de Consultant technique SAP chez Augusta Reeves, il m’arrive souvent de travailler sur des projets variés et cela demande à ce que je m’imprègne rapidement du contexte du projet et ses objectifs.</p>",
+			"<p style='text-align: justify'>Je commence chaque mission par une étape de prise d’information qui consiste à connaître le contexte du projet, les transactions et programmes à créer ou utiliser. Cette prise de note est importante car elle me permet de synthétiser les informations et de conserver l’essentiel. </br>",
+			"Et afin de pouvoir mieux gérer mes projets, je note mes temps de développement dans un fichier OneNote, ce fichier contribue notamment à la réalisation de mon suivi d’activité. </p>",
+			"<p style='text-align: justify'>Cette compétence je l’ai développé lors de mes missions de TMA (Tiers maintenance applicative) sur le progiciel SAP sur les différents environnements clients de mon entreprise.</p>",
+			"<p style='text-align: justify'>Pour exemple dans le cadre d’une journée de TMA que j’ai réalisé pour deux clients différents :",
+			"<ul><li>En début de journée : j’étais à la recherche de l’anomalie qui entraînait l’échec de certains IDOC entrants (technologie permettant d’échanger des données entre des systèmes) pour au final découvrir que cela provenait d’une erreur liée à un des champs des segments qui étaient mal alimentés. </br>",
+			"Lors du traitement de ce ticket, j’ai pu découvrir et utiliser toutes les transactions liées aux traitements des IDOCs.</li> ",
+			"Suite à cela je devais, changer de sujet et traité un autre problème concernant l'environnement ERP d'un autre client et d'autres types de données. </ul>",
+			"<ul><li>L’après-midi de cette même journée : je me trouvais à travailler pour un autre client sur un programme de modification de nomenclature d’article qu’il fallait débugger car les modifications n’étaient pas bien prise en compte. </li> </ul>",
+			"<p style='text-align: justify'>Ces missions permettent de développer mes capacités d’analyse car elles nécessitent une bonne observation et de la recherche. </p>",
+			"<p style='text-align: justify'>J’ai eu des retours positifs de la part de mon manager et des chargés de projet concernant la flexibilité dans la réalisation de mes travaux car ils n’hésitent pas à me staffer sur des projets de courte durée. </br>",
+			"Grâce à ces missions réalisées qui touchent aux différents modules SAP et à leurs technologies variées, je pense pouvoir m’adapter facilement aux projets qui me sont proposés.</p>"
+		]
+	},
+
+	"Presenter": {
+		"TITRE": "Présenter",
+		"titre1": "L’art de présenter un projet",
+		"partie1": [
+			"<p style='text-align: justify'>Présenter un projet dans un contexte professionnel est la capacité à pouvoir transmettre des informations à un public. C’est aussi un moyen pour les acteurs d’un projet de mettre en valeur le travail réalisé.</p>"
+		],
+		"titre2": "Mon expérience en présentation de projet",
+		"partie2": [
+			"<p style='text-align: justify'>Durant mes années d'études et d'alternances, j’ai eu à réalisé beaucoup de présentations. </br>",
+			"Que ça soit des prénsentations sur des sujets techniques ou des sujets fonctionnels. </p>",
+			"<p style='text-align: justify'>Par exemple :",
+			"<ul><li>La présentation d'un projet avec des précisions sur la méthode agile. </li></ul>",
+			"<ul><li>Une présentation dans le cadre d'un projet client où il fallait expliquer les fonctionnalités et règles de gestion misent en place. </li> </ul>",
+			"<ul><li>Une présentation afin de transmettre des connaissances à un groupe de collaborateurs...</li> </ul>",
+			"<p style='text-align: justify'>Parmis ces présentations, certaines avaient une phase de démonstration des applications permettant aux clients de visualiser le produit final, tout en échangeant autour des changements à appliquer avec les différents acteurs du projet.</p>",
+			"<p style='text-align: justify'>De plus, il faut savoir que la présentation de projet est importante car elle permettait à l’équipe de développeur dont je faisais partie d’avoir une  reconnaissance de notre travail. Ce qui est encourageant pour le bon déroulement du projet car cela contribuait à nous donner confiance et nous rassurer lors de la réalisation de nos développements.</p>"
+		],
+		"titre3": "Un retour d’expérience",
+		"partie3": [
+			"<p style='text-align: justify'> Au début au niveau professionnel, ça n’a pas été un exercice facile, car en milieu scolaire lors de mes présentations orales j’avais l’habitude de ne pas être coupé dans ma prise de parole. </br>",
+			"Alors que dans ces présentations de projet, il a fallu présenter tout en répondant aux questions, défendre des idées et ne pas perdre le fil de la présentation.</p>",
+			"<p style='text-align: justify'>Ces exercices oraux de présentations m’ont permis de mettre en avant mes compétences en communication et expression orale car j’ai dû prendre la parole en public et conduire les présentations. </br>",
+			"Je pense donc être à l’aise lors de la prise de parole en public dans un contexte professionnel que ce soit face aux clients ou en compagnie des collaborateurs.</p>"
+		],
+		"titre4": "Une compétence perfectible",
+		"partie4": [
+			"<p style='text-align: justify'> Avec du recul, je pense que cette compétence est perfectible par la mise en place d’un ordre du jour avant chaque présentation afin d’éviter l’étape de rappel des points sensibles et gagner du temps.</p>"
+		]
+	},
+
+	"Transmettre": {
+		"TITRE": "Transmettre",
+		"titre1": "La transmission de connaissance",
+		"partie1": [
+			"<p style='text-align: justify'>Savoir transmettre ses connaissances est une compétence, voire une qualité importante. Transmettre son savoir permet de construire des équipes de travail solide qui peuvent communiquer, se comprendre et par la même occasion évoluer ensemble. </br>",
+			"Cela peut aussi avoir comme finalité de s’auto critiquer est de mettre en avant les lacunes que l’on possède afin d’améliorer ses compétences.</p>"
+		],
+		"titre2": "Mes connaissances au profit des collaborateurs",
+		"partie2": [
+			"<p style='text-align: justify'>J’ai eu l’occasion de transmettre mes connaissances sur le progiciel SAP, lorsque j’ai aidé des stagiaires lors de leur formation SAP et leur apprentissage du développement ABAP. </p>",
+			"<p style='text-align: justify'>Je les ai donc accompagné lors de leur formation en leur donnant des explications sur certaines notions de base. Par exemple le fonctionnement du progiciel avec la navigation, l’utilisation de transaction, les modules, les flux et bien d’autres. Des connaissances qui peuvent paraître comme basique pour tout consultant erp mais qui peuvent être mal acquises en tant que débutant.</p>",
+			"<p style='text-align: justify'>Et en parallèle des notions plus poussés touchant au domaine technique avec les transactions de base du développeur, les tables standards/spécifiques, les instructions ABAP, les BAPI, les bases du débogage et les bonnes pratiques de développement.</p>",
+			"<p style='text-align: justify'>Grâce à cette bonne expérience, il est arrivé qu’on me propose de transmettre mes connaissances à des collaborateurs sur certaines technos.</p>"
+		],
+		"titre3": "Mon retour d’expérience",
+		"partie3": [
+			"<p style='text-align: justify'>Ces expériences m’ont permis d’exposer mes acquis mais en même temps de m’auto juger concernant la clarté de mes explications. </br>",
+			"Pour améliorer cette compétence je compte réaliser mon propre document de formation SAP à l’aide des nombreuses notes que j’ai réalisé lors de mon apprentissage jusqu’à aujourd’hui.</p>"
+		]
+	},
+
+	"Autonomie": {
+		"TITRE": "Structuré",
+		"titre1": "Comment avance-t-on sans une bonne organisation ?",
+		"partie1": [
+			"<p style='text-align: justify'> Chacun a sa méthode, mais on retrouve souvent un projet mal géré avec des documents par ci et des documents par là. Puis à la fin, on ne s'y retrouve plus. On ne sait plus qu'est ce qui a été modifié etc...</br>",
+			"En outre, être ordonné que ce soit professionnellement parlant ou même dans la vie de tous les jours est plus que bénéfique. On aime tous lorsqu'on conduit avoir une route fluide sans embouteillages = ordonné. Et à l'inverse on déteste = non ordonné. C'est avec cette métaphore là que je vois les choses et j'essaye de l'appliquer chaque jour au travail.</p>"
+		],
+		"titre2": "Être structuré",
+		"partie2": [
+			"<p style='text-align: justify'> Je n'avais pas porté attention à ce point, mais c'est en réalisant le test Talentoday que je m'en suis apperçu. Il est vrai que j'aime être organisé dans mon travail et ce depuis le début de mes études supérieures.</p>",
+			"<p style='text-align: justify'> Par exemple, après chaque développement, au delà de la documentation généralement demandée, je m'applique toujours à bien commenter le code. Ce qui permet de monter plus vite en compétence mais également de rendre plus fluide la lecture du code. Et ensuite je rédige une documentation que je stocke dans mon CLOUD perso. .</p>",
+			"<p style='text-align: justify'> De plus, je prends des notes le plus souvent possibles sur chaque projet afin d'être à l'aise le plus souvent avec les notions utilisées. C'est comme cela que je m'organise pour monter en compétences sur les notions transverses.</p>"
+		]
+	}
+
+}

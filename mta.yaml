@@ -1,0 +1,57 @@
+_schema-version: "3.2"
+ID: adrien_ratsimihah_portfolio
+version: 0.0.1
+modules:
+- name: adrien_ratsimihah_portfolio-destination-content
+  type: com.sap.application.content
+  requires:
+  - name: adrien_ratsimihah_portfolio-destination-service
+    parameters:
+      content-target: true
+  - name: adrien_ratsimihah_portfolio_html_repo_host
+    parameters:
+      service-key:
+        name: adrien_ratsimihah_portfolio_html_repo_host-key
+  - name: uaa_adrien_ratsimihah_portfolio
+    parameters:
+      service-key:
+        name: uaa_adrien_ratsimihah_portfolio-key
+  parameters:
+    content:
+      instance:
+        destinations:
+        - Name: BP_adrien_ratsimihah_portfolio_html_repo_host
+          ServiceInstanceName: adrien_ratsimihah_portfolio-html5-app-host-service
+          ServiceKeyName: adrien_ratsimihah_portfolio_html_repo_host-key
+          sap.cloud.service: BP
+        - Authentication: OAuth2UserTokenExchange
+          Name: BP_uaa_adrien_ratsimihah_portfolio
+          ServiceInstanceName: adrien_ratsimihah_portfolio-xsuaa-service
+          ServiceKeyName: uaa_adrien_ratsimihah_portfolio-key
+          sap.cloud.service: BP
+        existing_destinations_policy: ignore
+  build-parameters:
+    no-source: true
+resources:
+- name: adrien_ratsimihah_portfolio-destination-service
+  type: org.cloudfoundry.managed-service
+  parameters:
+    config:
+      HTML5Runtime_enabled: true
+      version: 1.0.0
+    service: destination
+    service-name: adrien_ratsimihah_portfolio-destination-service
+    service-plan: lite
+- name: adrien_ratsimihah_portfolio_html_repo_host
+  type: org.cloudfoundry.managed-service
+  parameters:
+    service: html5-apps-repo
+    service-name: adrien_ratsimihah_portfolio-html5-app-host-service
+    service-plan: app-host
+- name: uaa_adrien_ratsimihah_portfolio
+  type: org.cloudfoundry.managed-service
+  parameters:
+    path: ./xs-security.json
+    service: xsuaa
+    service-name: adrien_ratsimihah_portfolio-xsuaa-service
+    service-plan: application
